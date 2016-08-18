@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LearningFirebase</string>
+    <string name="mymusic_context_download_playnext">Option one</string>
+    <string name="mymusic_context_download_track">Option two</string>
+    <string name="mymusic_context_download_remove">Option three</string>
+    <string name="menu_context_remove_all_download">Option four</string>
+    <string name="mymusic_context_download_addfav">Option five</string>
+    <string name="mymusic_context_download_gotoartist">Option six</string>
+    <string name="menu_context_go_album">Option seven</string>
+    <string name="mymusic_context_download_share">Option eight</string>
+</resources>

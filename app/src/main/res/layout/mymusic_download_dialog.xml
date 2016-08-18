@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="300dp"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:background="?android:selectableItemBackground"
+        android:id="@+id/menu_play_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mymusic_context_download_playnext"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="?android:selectableItemBackground"
+        android:id="@+id/download_track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mymusic_context_download_track"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="?android:selectableItemBackground"
+        android:id="@+id/remove_from_downloads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mymusic_context_download_remove"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="?android:selectableItemBackground"
+        android:id="@+id/remove_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_context_remove_all_download"/>
+    </RelativeLayout>
+
+</LinearLayout>
